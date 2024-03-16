@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:chat_bot_app/providers/chat_providers.dart';
 import 'package:chat_bot_app/screens/chatScreen.dart';
 
 import 'package:flutter/cupertino.dart';

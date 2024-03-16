@@ -1,9 +1,11 @@
-import 'package:chat_bot_app/data/remote/api/api_helper.dart';
-import 'package:chat_bot_app/models/ai_generated_model.dart';
+
+import 'package:chat_bot_app/data/remote/api_helper.dart';
+import 'package:chat_bot_app/data/url_helper.dart';
+import 'package:chat_bot_app/models/ai_generated_models.dart';
+import 'package:chat_bot_app/models/message_model.dart';
 import 'package:flutter/cupertino.dart';
 
-import '../data/remote/api/urls.dart';
-import '../models/message_model.dart';
+
 
 class ChatProvider extends ChangeNotifier {
   List<MessageModel> listMsg = [];

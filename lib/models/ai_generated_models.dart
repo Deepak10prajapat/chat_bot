@@ -22,6 +22,7 @@ class AIGeneratedModel {
     created = json['created'];
     model = json['model'];
     if (json['choices'] != null) {
+      // This is check
       choices = <Choices>[];
       json['choices'].forEach((v) {
         choices!.add(new Choices.fromJson(v));

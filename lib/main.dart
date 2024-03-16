@@ -1,4 +1,5 @@
-import 'package:chat_bot_app/screens/splash_screen.dart';
+import 'package:chat_bot_app/screens/splashScreen.dart';
+
 import 'package:flutter/material.dart';
 
 void main() {
